@@ -1,0 +1,73 @@
+.heading-fash {
+    text-align: center;
+    color: white;
+    font-size: x-large;
+    margin-top: 30px;
+    font-weight: 900;
+}
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    background-color: #000;
+    gap: 20px;
+    padding: 30px;
+    margin: 100px auto;
+}
+.product-card {
+    background-color: #ffffff;
+    border-radius: 8px;
+    transition: transform 0.3s;
+    box-shadow: 4px 4px 4px  rgb(72, 20,100), -4px -4px 4px rgb(101, 101,200);
+    flex: 1 1 360px;
+    max-width: 500px;
+
+}
+.product-card img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+.product-card:hover {
+    border: 12px outset rgb(200, 250, 120);
+    transform: translateY(-20px);
+}
+.product-info {
+    background-color: white;
+    margin-top: 0;
+    padding: 15px;
+    flex-grow: 1;
+}
+.product-info p{
+    margin-bottom: 10px;
+}
+.product-info button{
+    padding: 10px;
+    background-color: rgb(244, 69, 16);
+    flex: 1;
+    border: none;
+    border-radius: 10px;
+    width: 100%;
+    color: #000;
+}
+.product-info button:hover {
+    background-color: cyan;
+}
+#adidas:hover {
+    content: url(/Main/adidas1.png);
+}
+#puma:hover {
+    content: url(/Main/puma1.jpg);
+}
+#hm:hover {
+    content: url(/Main/hm1.jpg);
+}
+#levis:hover {
+    content: url(/Main/levis1);
+}
+#gap:hover {
+    content: url(/Main/gap1.png);
+}
+#nike:hover {
+    content: url(/Main/nike1);
+}
